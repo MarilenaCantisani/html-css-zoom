@@ -1,0 +1,10 @@
+/* Utility */
+
+/* Size */
+/******** Padding-size *******/
+.p-60 {
+    padding: 0 60px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}

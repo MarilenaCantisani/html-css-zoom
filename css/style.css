@@ -1,9 +1,15 @@
 /* Reset */
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
+
+/* Utility */
+ .flex-container {
+     display: flex;
+ }
+
 
 /* Body */
 /******* Header section *******/
@@ -18,6 +24,15 @@ main {
     height: calc(100vh - 120px);
     background-color: darkcyan;
     overflow: scroll;
+}
+
+.participants .profile-picture {
+    flex-grow: 1;
+    padding: 5px 5px ;
+}
+
+.participants  {
+    flex-wrap: wrap;
 }
 
 
