@@ -1,5 +1,31 @@
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Body */
+/******* Header section *******/
+header {
+    height: 60px;
+    background-color:darkseagreen;
+}
+
+
+/******* Main section *******/
+main {
+    height: calc(100vh - 120px);
+    background-color: darkcyan;
+    overflow: scroll;
+}
+
+
+/******* Footer section *******/
+footer {
+    height: 60px;
+    background-color:darkseagreen;
+}
+
+
+
