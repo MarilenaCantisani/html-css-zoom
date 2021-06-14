@@ -15,19 +15,18 @@
 /******* Header section *******/
 header {
     height: 60px;
-    background-color:darkseagreen;
+    background-color: #000;
 }
 
 
 /******* Main section *******/
 main {
     height: calc(100vh - 120px);
-    background-color: darkcyan;
+    background-color: #000;
     overflow: scroll;
 }
 
 .participants .profile-picture {
-    flex-grow: 1;
     padding: 5px 5px ;
 }
 
@@ -39,7 +38,7 @@ main {
 /******* Footer section *******/
 footer {
     height: 60px;
-    background-color:darkseagreen;
+    background-color:#222222;
 }
 
 
