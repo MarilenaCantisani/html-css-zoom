@@ -1,14 +1,11 @@
 /* Reset */
 * {
     box-sizing: border-box;
-    margin: 0 auto;
     padding: 0;
 }
 
 /* Utility */
- .flex-container {
-     display: flex;
- }
+
 
 
 /* Body */
@@ -23,15 +20,18 @@ header {
 main {
     height: calc(100vh - 120px);
     background-color: #000;
-    overflow: scroll;
+    overflow: auto;
 }
 
-.participants .profile-picture {
-    padding: 5px 5px ;
-}
-
-.participants  {
+.partecipants {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partecipant img {
+    margin: 5px;
+    object-fit: cover;
 }
 
 
