@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 
 /* Utility */
@@ -12,6 +13,7 @@
 .mt-20 {
     margin-top: 20px;
 }
+
 
 
 /* Body */
@@ -35,7 +37,7 @@ header {
 
 /******* Main section *******/
 main {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 140px);
     background-color: #000;
     overflow: auto;
 }
@@ -54,9 +56,50 @@ main {
 
 /******* Footer section *******/
 footer {
-    height: 60px;
+    height: 80px;
     background-color:#222222;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.sx-footer {
+    display: flex;
+    margin-left: 10px;
+
+
+}
+
+.icon-footer {
+    text-align: center;
+}
+
+/* Icon */
+.footer-container i:not(.fa-angle-up) {
+    font-size: 30px;
+    padding: 5px;
 }
 
 
+.center-footer {
+    display: flex;
+}
+
+.dx-footer {
+    display: flex;
+    align-self: stretch;
+
+    
+}
+
+
+#btn-end-meeting {
+    color: red;
+    background-color: rgba(225, 225, 225, 0.2);
+    align-self: stretch;
+    height: 100%;
+    
+}
 
